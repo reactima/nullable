@@ -10,6 +10,10 @@ Each type must have Scan, Value, MarshalJSON and UnmarshalJSON method declared e
 Typical model
 
 ```go
+import (
+    nl "github.com/reactima/reactima-nullable-go"
+)
+
 //go:generate go run ../generator-server/generator.go Cache hh_cache $GOFILE
 //go:generate go run ../generator-front/generator.go Cache hh_cache $GOFILE
 type Cache struct {
