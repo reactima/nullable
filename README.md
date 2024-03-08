@@ -1,4 +1,4 @@
-# sqlx-nullable
+# reactima-nullable-go
 
 As we historically stacked with SQLX and PGX wasn't in its full glory, here's the collection of nullable structs for effective communication with database nulls and marshalling/unmarshalling from TS/JS
 
